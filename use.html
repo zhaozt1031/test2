@@ -14,3 +14,7 @@ git status  可以查看当前的状态：nothing to commit 说明未写内容
 .gitignore 在这个文件中可以设置要被忽略的文件或者目录，被忽略的文件不会提交到仓库中
 /.idea会忽略.idea文件      /js会忽略js目录里所有文件  /js/*.js会忽略js目录下所有js文件
 git log  查看历史提交的日志    git log --online 可以看到简洁版的日志
+
+git reset --hard Head~0  回退到第几个 0就是最后一次提交的版本
+git reset --hard 版本号   通过版本号切换版本
+git reflog 可以查看所有对版本的操作
