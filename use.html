@@ -10,3 +10,7 @@ git commit --all -m "文件的说明"  ：这是一次性直接放到门口，�
 每次代码更新之后要提交
 git status  可以查看当前的状态：nothing to commit 说明未写内容
                                 红色modified  说明写了未添加提交
+
+.gitignore 在这个文件中可以设置要被忽略的文件或者目录，被忽略的文件不会提交到仓库中
+/.idea会忽略.idea文件      /js会忽略js目录里所有文件  /js/*.js会忽略js目录下所有js文件
+git log  查看历史提交的日志    git log --online 可以看到简洁版的日志
