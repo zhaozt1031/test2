@@ -30,4 +30,6 @@ git merge dev 切换回master后，合并dev到master
 gitHub 允许别人通过git上传代码，提交代码到gitHub上（只是个服务器）
 登陆网站，建一个仓库，上传代码
 git push （github里面的地址） 要传的分支
-git push  https://github.com/zhaozt1031/test1.git  master
+git push  https://github.com/zhaozt1031/test1.git  master    下拉一般用这个方法
+git clone https://github.com/zhaozt1031/test1.git  master  会得到远程仓库相同的数据，如果多次执行会覆盖本地的内容，第一次拿项目的时候可以用这种方法
+ssh方式上传代码：不需要密码，需要生成公钥和私钥 ssh-keygen -t rsa -C zitong536@163.com
